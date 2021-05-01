@@ -1,0 +1,115 @@
+/* Colors and fonts */ 
+
+body{
+	background: #1f1d2b;
+	color: rgb(200,200,200);
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 22px;
+}
+h1, h2, h3{
+	font-family: Montserrat;
+}
+
+h1{
+	color: rgb(200,200,200);
+	font-size:36px;
+}
+
+h2{
+	color: rgb(200,200,200);
+	font-size: 28px;
+}
+
+a{
+	text-decoration: none;
+	color: #2f5d62;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+a:hover{
+	color: #364547;
+	text-decoration: none;
+}
+
+/* Class design */
+
+.container {
+	width: 700px;
+	margin:40px auto;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-grey {
+	background-color: #252836;
+	padding:40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius:6px;
+	margin:20px 0px;
+	text-align:center;
+}
+
+.img-circle {
+	border-radius: 50%;
+	border-color:purple;
+	border: 5px solid #6c5ecf;
+}
+
+.btn-purple {
+	background-color: #4f4498;
+	color:white;
+	padding: 15px 20px;
+	border-radius:6px;
+}
+
+.btn-purple:hover {
+	background-color: #6c5ecf;
+	color:white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #4f4498;
+}
+
+.list-inline i:hover {
+	color: #6c5ecf;
+}
+
+/* Zoom in image*/ 
+.zoom {
+	transition: 0.3s ease-in-out;
+}
+.zoom:hover {
+	transform: scale(1.1);
+}
+
+/* ID design */
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
